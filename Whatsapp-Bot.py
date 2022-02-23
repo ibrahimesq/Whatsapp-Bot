@@ -404,3 +404,6 @@ elif dil == 2:
         else:
             print("You made the wrong choice.")
             quit()
+else:
+    print("Hatalı seçim yaptınız. /// You made the wrong choice.")
+    quit()
