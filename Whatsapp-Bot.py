@@ -2,6 +2,7 @@ from selenium import webdriver
 import time
 import smtplib
 import os
+from subprocess import call
 from getpass import getpass as gizle
 from datetime import datetime as zaman
 import locale
@@ -47,10 +48,9 @@ else:
     pass
 
 
-isim = tarayici.find_element_by_xpath("//div[contains(@class,'_13NKt copyable-text')]")
-isim.send_keys(q)
+isim = tarayici.find_element_by_xpath("//div[contains(@class,'_13NKt copyable-text')]").send_keys(q)
 time.sleep(2)
-tik = tarayici.find_element_by_xpath("//div[@id='pane-side']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]").click()
+tik = tarayici.find_element_by_xpath("//span[contains(@class,'ggj6brxn gfz4du6o')]").click()
 temizle()
 
 x = input("Sesli bildirim almak ister misiniz? E/H \n==> ")
@@ -73,7 +73,7 @@ temizle()
 z = input("Mail bildirimi almak ister misiniz? E/H \n==> ")
 if not bool(z):
     print("Bir seçim yapmanız gerekiyor.")
-    quit
+    quit()
 elif z == "e" or z == "E":
     pass
 elif z == "h" or z == "H":
@@ -131,7 +131,8 @@ while True:
         try:
             tarayici.find_element_by_xpath("//span[text()='çevrimiçi']")
             if kontrol==True:
-                print("\a",c)
+                print(c)
+                call(["espeak", "-v", "tr", c])
                 print(50*"-")
                 baslangic = time.time()
                 if z == "e" or z == "E":
