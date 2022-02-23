@@ -8,10 +8,11 @@ Whatsapp online checker for users with selenium webdriver
 Programı çalıştırdığınız zaman whatsapp web'e girer ve ismini verdiğiniz kişinin çevrimiçi olup olmadığını kontrol eder.
 
 ### Özellikleri Nelerdir?
-1) Kişi çevrimiçi ve çevrimdışı olduğunda size sesli ve yazılı bir şekilde bildirir.(ses özelliği yalnızca linux'ta çalışmaktadır.)
-2) kişi çevrimiçi olduğunda size mail gönderir(isteğe bağlı.)
+1) Kişi çevrimiçi ve çevrimdışı olduğunda size sesli ve yazılı bir şekilde bildirir(ses özelliği yalnızca linux'ta çalışmaktadır.).
+2) kişi çevrimiçi olduğunda size mail gönderir(isteğe bağlı.).
 3) sessiz çalışma özelliği bulunmaktadır.
-4) tarayıcı üzerinde çalışır.(chrome ve firefox)
+4) tarayıcı üzerinde çalışır(chrome ve firefox).
+5) kişinin kaç saniye çevrimiçi kaldığını söyler.
 
 ### Gereksinimler
 
