@@ -8,11 +8,11 @@ Whatsapp online checker for users with selenium webdriver
 Programı çalıştırdığınız zaman whatsapp web'e girer ve ismini verdiğiniz kişinin çevrimiçi olup olmadığını kontrol eder.
 
 ### Özellikleri Nelerdir?
-1) Kişi çevrimiçi ve çevrimdışı olduğunda size sesli ve yazılı bir şekilde bildirir(ses özelliği yalnızca linux'ta çalışmaktadır.).
+1) Kişi çevrimiçi ve çevrimdışı olduğunda size sesli ve yazılı bir şekilde bildirir.
 2) kişi çevrimiçi olduğunda size mail gönderir(isteğe bağlı.).
 3) sessiz çalışma özelliği bulunmaktadır.
 4) tarayıcı üzerinde çalışır(chrome ve firefox).
-5) kişinin kaç saniye çevrimiçi kaldığını söyler.
+5) kişinin kaç saniye çevrimiçi kaldığını bildirir.
 
 ### Gereksinimler
 
@@ -43,4 +43,4 @@ espeak(linux'ta kullananlar için)
 5) WhatsApp-Bot.exe ve ChromeDriver.exe dosyalarını aynı klasöre taşıyın.
 6) WhatsApp-Bot.exe dosyasını çalıştırın.
 
-#### Dipnot: Programı sorunsuz çalıştırmak için Chrome ve ChromeDriver'ın son sürümünü kullanmaya özen gösterin.
+#### Dipnot: Programı sorunsuz çalıştırmak için Chrome ve ChromeDriver'ın sürümlerinin aynı olmasına özen gösterin.
